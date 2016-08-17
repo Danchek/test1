@@ -3,7 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Tetris/Tetris.iml" filepath="$PROJECT_DIR$/Tetris/Tetris.iml" />
-      <module fileurl="file://$PROJECT_DIR$/new_rep.iml" filepath="$PROJECT_DIR$/new_rep.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test1.iml" filepath="$PROJECT_DIR$/test1.iml" />
     </modules>
   </component>
 </project>

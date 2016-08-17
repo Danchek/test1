@@ -1,5 +1,9 @@
 [
     {
+        "merged": "C:\\Users\\dedo\\ASP\\test1\\Tetris\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi-v4\\ic_launcher.png",
+        "source": "C:\\Users\\dedo\\ASP\\test1\\Tetris\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
         "merged": "C:\\Users\\dedo\\ASP\\NewApp\\Tetris\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi-v4\\ic_launcher.png",
         "source": "C:\\Users\\dedo\\ASP\\NewApp\\Tetris\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
     },

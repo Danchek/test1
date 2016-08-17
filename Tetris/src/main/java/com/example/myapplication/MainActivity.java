@@ -40,7 +40,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     ImageButton buttonR, buttonU,buttonL,buttonD, buttonB;
     Shape shape;
     Service service = new Service(pole,imgNew);
-    int abc;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -48,12 +47,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         setContentView(R.layout.activity_main);
         int numberFields=0;
         pole= new int[con.ROW][con.COLUMN];
-        //vector.add(pole);
-        //Log.d(TAG, "MainActivityCreate");
+        service.randomShape(masShapes);
+
         tableLayout = (TableLayout)findViewById(R.id.TableLayout);
         tableRows = new TableRow[con.ROW];
         imgNew = new ImageView[con.NUMER_OF_ELEMEMHT];
-
         buttonD = (ImageButton) findViewById(R.id.imageButtonDown);
         //buttonD.setOnClickListener(this);
         //buttonD.setOnLongClickListener(this);
@@ -164,7 +162,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             public void run() {
                 while (currentState!=8) {
                     flag = true;
-                    shape = new L();
+                    shape = service.chooseShape(masShapes[0]);
                     currentState = shape.create(pole);
                     count = 0;
                     service.backgr(currentState);
@@ -182,6 +180,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                         handler.sendEmptyMessage(currentState);
                     }
                     service.checkRow();
+                    service.nextShape(masShapes);
                 }
                 //TODO здесь будет обрабатываться событие проигрыша
             }
