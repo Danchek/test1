@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="x86"
+    api-level="23"
+    density="xxhdpi"
+    format="7"
+    timestamp="1838253608185301"
+    token="8061493558533893326" >
+
+    <task
+        name="javac"
+        duration="1049" />
+    <task
+        name="instant-run-dex"
+        duration="0" />
+    <task
+        name="instant-run-transform"
+        duration="768" />
+    <task
+        name="verifier"
+        duration="303" />
+
+    <artifact
+        location="C:\Users\dedo\AndroidStudioProjects\MyApplication\Tetris\build\outputs\apk\Tetris-debug.apk"
+        type="MAIN" />
+
+    <build timestamp="1838253608185301" >
+        <artifact
+            location="C:\Users\dedo\AndroidStudioProjects\MyApplication\Tetris\build\outputs\apk\Tetris-debug.apk"
+            type="MAIN" />
+    </build>
+
+</instant-run>
