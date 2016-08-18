@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">My Application</string>
+    <string name="start">Start game</string>
+    <string name="properties">Properties</string>
+    <string name="rule">Rules</string>
+    <string name="help">Help</string>
 </resources>

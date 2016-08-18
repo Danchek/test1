@@ -1,22 +1,6 @@
 [
     {
-        "merged": "C:\\Users\\dedo\\ASP\\gitTest\\Tetris\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi-v4\\ic_launcher.png",
-        "source": "C:\\Users\\dedo\\ASP\\gitTest\\Tetris\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
-    },
-    {
-        "merged": "C:\\Users\\dedo\\AndroidStudioProjects\\MyApplication\\Tetris\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi-v4\\ic_launcher.png",
-        "source": "C:\\Users\\dedo\\AndroidStudioProjects\\MyApplication\\Tetris\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
-    },
-    {
-        "merged": "C:\\Users\\dedo\\ASP\\new_rep\\Tetris\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi-v4\\ic_launcher.png",
-        "source": "C:\\Users\\dedo\\ASP\\new_rep\\Tetris\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
-    },
-    {
         "merged": "C:\\Users\\dedo\\ASP\\test1\\Tetris\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi-v4\\ic_launcher.png",
         "source": "C:\\Users\\dedo\\ASP\\test1\\Tetris\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
-    },
-    {
-        "merged": "C:\\Users\\dedo\\ASP\\NewApp\\Tetris\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi-v4\\ic_launcher.png",
-        "source": "C:\\Users\\dedo\\ASP\\NewApp\\Tetris\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
     }
 ]

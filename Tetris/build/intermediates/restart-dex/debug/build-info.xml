@@ -4,30 +4,44 @@
     api-level="23"
     density="xxhdpi"
     format="7"
-    timestamp="1838253608185301"
-    token="8061493558533893326" >
+    timestamp="2083483560391997"
+    token="5374751239352365827" >
 
     <task
         name="javac"
-        duration="1049" />
+        duration="0" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="768" />
+        duration="0" />
     <task
         name="verifier"
-        duration="303" />
+        duration="0" />
 
-    <artifact
-        location="C:\Users\dedo\AndroidStudioProjects\MyApplication\Tetris\build\outputs\apk\Tetris-debug.apk"
-        type="MAIN" />
-
-    <build timestamp="1838253608185301" >
+    <build timestamp="2081941528627675" >
         <artifact
-            location="C:\Users\dedo\AndroidStudioProjects\MyApplication\Tetris\build\outputs\apk\Tetris-debug.apk"
+            location="C:\Users\dedo\ASP\test1\Tetris\build\outputs\apk\Tetris-debug.apk"
             type="MAIN" />
     </build>
+    <build timestamp="2082460538260863" >
+        <artifact
+            location="C:\Users\dedo\ASP\test1\Tetris\build\intermediates\transforms\dex\debug\folders\1000\5\slice_6\classes.dex"
+            type="DEX" />
+    </build>
+    <build
+        timestamp="2082563752963220"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="C:\Users\dedo\ASP\test1\Tetris\build\intermediates\builds\debug\2082563752963220\classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+    <build timestamp="2082948657940129" >
+        <artifact
+            location="C:\Users\dedo\ASP\test1\Tetris\build\intermediates\res\resources-debug.ap_"
+            type="RESOURCES" />
+    </build>
+    <build timestamp="2083483560391997" />
 
 </instant-run>

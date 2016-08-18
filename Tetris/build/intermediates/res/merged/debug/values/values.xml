@@ -214,6 +214,10 @@
     <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
     <string name="abc_toolbar_collapse_description">Collapse</string>
     <string name="app_name">My Application</string>
+    <string name="help">Help</string>
+    <string name="properties">Properties</string>
+    <string name="rule">Rules</string>
+    <string name="start">Start game</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>
     <style name="AlertDialog.AppCompat.Light" parent="Base.AlertDialog.AppCompat.Light"/>
@@ -1179,6 +1183,13 @@
         <item name="android:background">?attr/controlBackground</item>
         <item name="android:minWidth">56dp</item>
         <item name="android:scaleType">center</item>
+    </style>
+    <style name="ButtonStyle">
+        <item name="android:textSize">16sp</item>
+        <item name="android:layout_width">170dp</item>
+        <item name="android:layout_height">60dp</item>
+        <item name="android:typeface">monospace</item>
+        <item name="android:textStyle"/>
     </style>
     <style name="Platform.AppCompat" parent="android:Theme">
         <item name="android:windowNoTitle">true</item>
