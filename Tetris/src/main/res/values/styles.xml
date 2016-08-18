@@ -14,5 +14,5 @@
         <item name="android:layout_height">60dp</item>
     </style>
 
-
+    <style name="MyAppTheme" parent="Theme.AppCompat.Light.NoActionBar"></style>
 </resources>

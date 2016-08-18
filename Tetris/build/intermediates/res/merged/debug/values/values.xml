@@ -214,11 +214,22 @@
     <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
     <string name="abc_toolbar_collapse_description">Collapse</string>
     <string name="app_name">My Application</string>
+    <string name="apply">Apply</string>
+    <string name="back">Back</string>
+    <string name="defaultButton">Default</string>
+    <string name="english">English</string>
     <string name="help">Help</string>
+    <string name="language">Language</string>
+    <string name="level">Level</string>
+    <string name="off">Off</string>
+    <string name="on">On</string>
     <string name="properties">Properties</string>
     <string name="rule">Rules</string>
+    <string name="russian">Russian</string>
+    <string name="sound">Sound</string>
     <string name="start">Start game</string>
     <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="ukrainian">Ukrainian</string>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>
     <style name="AlertDialog.AppCompat.Light" parent="Base.AlertDialog.AppCompat.Light"/>
     <style name="Animation.AppCompat.Dialog" parent="Base.Animation.AppCompat.Dialog"/>
@@ -1188,9 +1199,8 @@
         <item name="android:textSize">16sp</item>
         <item name="android:layout_width">170dp</item>
         <item name="android:layout_height">60dp</item>
-        <item name="android:typeface">monospace</item>
-        <item name="android:textStyle"/>
     </style>
+    <style name="MyAppTheme" parent="Theme.AppCompat.Light.NoActionBar"/>
     <style name="Platform.AppCompat" parent="android:Theme">
         <item name="android:windowNoTitle">true</item>
 

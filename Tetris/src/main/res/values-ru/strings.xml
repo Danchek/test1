@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="start">Начать игру</string>
+    <string name="properties">Настройки</string>
+    <string name="rule">Правила</string>
+    <string name="help">Помощь</string>
+    <string name="language">Язык</string>
+    <string name="sound">Звук</string>
+    <string name="level">Уровень</string>
+    <string name="russian">Русский</string>
+    <string name="english">Английский</string>
+    <string name="ukrainian">Украинский</string>
+    <string name="on">Вкл</string>
+    <string name="off">Выкл</string>
+    <string name="apply">Принять</string>
+    <string name="defaultButton">По умолчанию</string>
+    <string name="back">Назад</string>
+</resources>

@@ -19,5 +19,21 @@
     <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"Открыть доступ"</string>
     <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"Открыть доступ пользователю %s"</string>
     <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"Свернуть"</string>
+    <string name="app_name">My Application</string>
+    <string name="apply">Принять</string>
+    <string name="back">Назад</string>
+    <string name="defaultButton">По умолчанию</string>
+    <string name="english">Английский</string>
+    <string name="help">Помощь</string>
+    <string name="language">Язык</string>
+    <string name="level">Уровень</string>
+    <string name="off">Выкл</string>
+    <string name="on">Вкл</string>
+    <string name="properties">Настройки</string>
+    <string name="rule">Правила</string>
+    <string name="russian">Русский</string>
+    <string name="sound">Звук</string>
+    <string name="start">Начать игру</string>
     <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">">999"</string>
+    <string name="ukrainian">Украинский</string>
 </resources>

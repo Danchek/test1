@@ -4,44 +4,51 @@
     api-level="23"
     density="xxhdpi"
     format="7"
-    timestamp="2083483560391997"
-    token="5374751239352365827" >
+    timestamp="2101495354760406"
+    token="5374751239352365827"
+    verifier="COMPATIBLE" >
 
     <task
         name="javac"
-        duration="0" />
+        duration="410" />
     <task
         name="instant-run-dex"
-        duration="0" />
+        duration="633" />
     <task
         name="instant-run-transform"
-        duration="0" />
+        duration="97" />
     <task
         name="verifier"
-        duration="0" />
+        duration="5" />
 
-    <build timestamp="2081941528627675" >
+    <artifact
+        location="C:\Users\dedo\ASP\test1\Tetris\build\intermediates\res\resources-debug.ap_"
+        type="RESOURCES" />
+    <artifact
+        location="C:\Users\dedo\ASP\test1\Tetris\build\intermediates\reload-dex\debug\classes.dex"
+        type="RELOAD_DEX" />
+
+    <build timestamp="2099477473254128" >
         <artifact
             location="C:\Users\dedo\ASP\test1\Tetris\build\outputs\apk\Tetris-debug.apk"
             type="MAIN" />
     </build>
-    <build timestamp="2082460538260863" >
+    <build
+        timestamp="2101045292531400"
+        verifier="CLASS_ADDED" >
         <artifact
             location="C:\Users\dedo\ASP\test1\Tetris\build\intermediates\transforms\dex\debug\folders\1000\5\slice_6\classes.dex"
             type="DEX" />
     </build>
     <build
-        timestamp="2082563752963220"
+        timestamp="2101495354760406"
         verifier="COMPATIBLE" >
-        <artifact
-            location="C:\Users\dedo\ASP\test1\Tetris\build\intermediates\builds\debug\2082563752963220\classes.dex"
-            type="RELOAD_DEX" />
-    </build>
-    <build timestamp="2082948657940129" >
         <artifact
             location="C:\Users\dedo\ASP\test1\Tetris\build\intermediates\res\resources-debug.ap_"
             type="RESOURCES" />
+        <artifact
+            location="C:\Users\dedo\ASP\test1\Tetris\build\intermediates\reload-dex\debug\classes.dex"
+            type="RELOAD_DEX" />
     </build>
-    <build timestamp="2083483560391997" />
 
 </instant-run>
