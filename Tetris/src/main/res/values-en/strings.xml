@@ -15,4 +15,6 @@
     <string name="apply">Apply</string>
     <string name="defaultButton">Default</string>
     <string name="back">Back</string>
+    <string name="row">Rows</string>
+    <string name="points">Points</string>
 </resources>

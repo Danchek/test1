@@ -177,7 +177,7 @@ public class ObtatnayaL implements Shape {
                 }
                 break;
             case 3:
-                if(fColumn==0){return false;}
+                if(fColumn==9){return false;}
                 if (pole[fRow][fColumn+1]==0 && pole[fRow+1][fColumn+1]==0 && pole[fRow+2][fColumn+1]==0){
                     pole[fRow][fColumn] = 0;
                     pole[fRow+1][fColumn] = 0;

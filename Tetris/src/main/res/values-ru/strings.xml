@@ -15,4 +15,6 @@
     <string name="apply">Принять</string>
     <string name="defaultButton">По умолчанию</string>
     <string name="back">Назад</string>
+    <string name="row">Строки</string>
+    <string name="points">Очки</string>
 </resources>

@@ -55,6 +55,7 @@ public class MenuActivity extends AppCompatActivity implements View.OnClickListe
                 intent.putExtra("sound", sound);
                 intent.putExtra("level",level);
                 Log.d(TAG, sound + " "+level);
+                startActivity(intent);
                 break;
             case R.id.button2:
                 intent = new Intent(this, PropertyActivity.class);

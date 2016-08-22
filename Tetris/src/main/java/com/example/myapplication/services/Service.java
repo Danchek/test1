@@ -22,17 +22,17 @@ import java.util.concurrent.TimeUnit;
 public class Service {
 
     Constants con = new Constants();
-    int[][] pole;
+    //int[][] pole;
     ImageView[] imgNew;
     Random random = new Random();
 
     public Service(int[][] pole, ImageView[] imgNew) {
-        this.pole = pole;
-        this.imgNew = imgNew;
+        //this.pole = pole;
+        //this.imgNew = imgNew;
     }
 
     //метод перерисовки поля для тетриса
-    public synchronized void backgr(int z) {
+    public synchronized void backgr(int z,int[][] pole, ImageView[] imgNew) {
         for (int i = 0; i < con.ROW; i++)
             for (int j = 0; j < con.COLUMN; j++) {
                 switch (pole[i][j]) {
@@ -47,7 +47,7 @@ public class Service {
     }
 
     //метод для проверки строк на удаление
-    public int checkRow(){
+    public int checkRow(int[][] pole){
         int cellNumber;
         for (int i=0;i<con.ROW;i++){
             cellNumber=0;
@@ -64,7 +64,7 @@ public class Service {
     }
 
     //метод для удаления строки (принимает номер строки, который нужно удалить)
-    public void deleteRow(int row){
+    public void deleteRow(int row, int[][] pole){
         for (;row>0;row--){
             for(int j=0;j<con.COLUMN;j++){
                 pole[row][j]=pole[row-1][j];
@@ -192,6 +192,29 @@ public class Service {
     public int metodRow (int rowNumber){
         rowNumber++;
         return rowNumber;
+    }
+
+    public void metodBeforeNextShape(int[][] pole){
+        for (int i=0;i<con.ROW;i++){
+            for(int j=0;j<con.COLUMN;j++)
+                switch (pole[i][j]) {
+                    case 1: pole[i][j] = con.RDVA;
+                        break;
+                    case 2: pole[i][j] = con.RKVAD;
+                        break;
+                    case 3: pole[i][j] = con.RL;
+                        break;
+                    case 4: pole[i][j] = con.RLIN;
+                        break;
+                    case 5: pole[i][j] = con.ROBL;
+                        break;
+                    case 6: pole[i][j] = con.RPYAT;
+                        break;
+                    case 7: pole[i][j] = con.RTREUG;
+                        break;
+                    //DVA=1, KVAD=1, L=1, LIN=1, OBL=1, PYAT=1, TREUG=1;
+                }
+        }
     }
 
 }

@@ -14,8 +14,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
+        android:layout_marginLeft="70dp"
         android:id="@+id/gridLayout">
 
         <TableLayout
@@ -25,7 +24,7 @@
             android:layout_row="2"
             android:layout_rowSpan="4"
             android:layout_column="0"
-            android:layout_columnSpan="5">
+            android:layout_columnSpan="7">
 
         </TableLayout>
 
@@ -35,30 +34,28 @@
             android:id="@+id/imageView1"
             android:layout_row="2"
             android:background="@mipmap/ic_launcher"
-            android:layout_column="5" />
-
-
+            android:layout_column="7" />
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/imageView2"
             android:layout_row="3"
             android:background="@mipmap/ic_launcher"
-            android:layout_column="5" />
+            android:layout_column="7" />
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/imageView3"
             android:layout_row="4"
             android:background="@mipmap/ic_launcher"
-            android:layout_column="5" />
+            android:layout_column="7" />
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/imageView4"
             android:layout_row="5"
             android:background="@mipmap/ic_launcher"
-            android:layout_column="5" />
+            android:layout_column="7" />
 
         <ImageButton
             android:layout_width="wrap_content"
@@ -66,28 +63,28 @@
             android:id="@+id/imageButtonLeft"
             android:background="@drawable/button_test"
             android:layout_row="9"
-            android:layout_column="1" />
+            android:layout_column="3" />
         <ImageButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/imageButtonUp"
             android:background="@drawable/button_test"
             android:layout_row="8"
-            android:layout_column="2" />
+            android:layout_column="4" />
         <ImageButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/imageButtonRight"
             android:background="@drawable/button_test"
             android:layout_row="9"
-            android:layout_column="3" />
+            android:layout_column="5" />
         <ImageButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/imageButtonDown"
             android:background="@drawable/button_test"
             android:layout_row="10"
-            android:layout_column="2" />
+            android:layout_column="4" />
 
     </GridLayout>
 
@@ -101,5 +98,57 @@
         android:layout_alignParentEnd="true"
         android:layout_marginBottom="38dp"
         android:layout_marginRight="70dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/level"
+        android:id="@+id/textView"
+        android:layout_alignTop="@+id/gridLayout"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TEST"
+        android:id="@+id/textViewLevel"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/row"
+        android:id="@+id/textView2"
+        android:layout_below="@+id/textViewLevel"
+        android:layout_marginTop="20dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:id="@+id/textViewRows"
+        android:layout_below="@+id/textView2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/points"
+        android:id="@+id/textView3"
+        android:layout_below="@+id/textViewRows"
+        android:layout_marginTop="20dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:layout_below="@+id/textView3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"/>
 
 </RelativeLayout>

@@ -29,7 +29,9 @@
     <string name="level">Уровень</string>
     <string name="off">Выкл</string>
     <string name="on">Вкл</string>
+    <string name="points">Очки</string>
     <string name="properties">Настройки</string>
+    <string name="row">Строки</string>
     <string name="rule">Правила</string>
     <string name="russian">Русский</string>
     <string name="sound">Звук</string>
