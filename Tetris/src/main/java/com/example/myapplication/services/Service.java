@@ -47,7 +47,7 @@ public class Service {
     }
 
     //метод для проверки строк на удаление
-    public void checkRow(){
+    public int checkRow(){
         int cellNumber;
         for (int i=0;i<con.ROW;i++){
             cellNumber=0;
@@ -57,9 +57,10 @@ public class Service {
                 }
             }
             if (cellNumber==10){
-                deleteRow(i);
+                return i;
             }
         }
+        return -1;
     }
 
     //метод для удаления строки (принимает номер строки, который нужно удалить)
@@ -109,5 +110,88 @@ public class Service {
         }
     }
 
+    //метод определения скорости
+    public int speed(int level){
+        int speed = 1500;
+        switch (level){
+            case 1: speed=1500;
+                break;
+            case 2: speed=1400;
+                break;
+            case 3: speed=1300;
+                break;
+            case 4: speed=1200;
+                break;
+            case 5: speed=1100;
+                break;
+            case 6: speed=1000;
+                break;
+            case 7: speed=900;
+                break;
+            case 8: speed =800;
+                break;
+            case 9: speed =700;
+                break;
+            case 10: speed = 600;
+                break;
+            case 11: speed = 500;
+                break;
+            case 12: speed =400;
+                break;
+            case 13: speed=300;
+                break;
+            case 14: speed=200;
+                break;
+            case 15: speed=100;
+                break;
+        }
+        return speed;
+    }
+
+    public int metodIncreasePoints (int points, int level){
+        switch (level){
+            case 1: points+=100;
+                break;
+            case 2: points+=150;
+                break;
+            case 3: points+=200;
+                break;
+            case 4: points+=250;
+                break;
+            case 5: points+=300;
+                break;
+            case 6: points+=350;
+                break;
+            case 7: points+=400;
+                break;
+            case 8: points+=450;
+                break;
+            case 9: points+=500;
+                break;
+            case 10: points+=550;
+                break;
+            case 11: points+=600;
+                break;
+            case 12: points+=700;
+                break;
+            case 13: points+=800;
+                break;
+            case 14: points+=900;
+                break;
+            case 15: points+=1000;
+                break;
+        }
+        return points;
+    }
+
+    public int metodIncreaseLevel (int level){
+        if(level<15){level++;}
+        return level;
+    }
+
+    public int metodRow (int rowNumber){
+        rowNumber++;
+        return rowNumber;
+    }
 
 }

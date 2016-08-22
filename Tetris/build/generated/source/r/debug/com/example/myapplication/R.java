@@ -1616,8 +1616,7 @@ containing a value of this type.
         public static final int button_test=0x7f02004d;
         public static final int gray_middle=0x7f02004e;
         public static final int gray_small=0x7f02004f;
-        public static final int main_fon=0x7f020050;
-        public static final int notification_template_icon_bg=0x7f020051;
+        public static final int notification_template_icon_bg=0x7f020050;
     }
     public static final class id {
         public static final int TableLayout=0x7f0c0051;

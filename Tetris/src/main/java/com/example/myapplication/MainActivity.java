@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     ImageView []imgNew;
     int [][]pole;
     int[] masShapes = new int[5];
-    int currentState, level, speed, points;
+    int currentState, level, speed, points, rowNumber;
     Handler handler;
     Thread thread;
     Constants con = new Constants();
@@ -179,7 +179,17 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                         }
                         handler.sendEmptyMessage(currentState);
                     }
-                    service.checkRow();
+                    //блок удаления полных строк и начисления баллов
+                    while (service.checkRow()>=0){
+                        service.deleteRow(service.checkRow());
+                        points=service.metodIncreasePoints(points,level);
+                        rowNumber=service.metodRow(rowNumber);
+                        if((rowNumber%20)==0){
+                            level=service.metodIncreaseLevel(level);
+                            speed=service.speed(level);
+                        }
+                    }
+                    //TODO добавить поля для отображения уровня, очков и кол-ва удаленных строк
                     service.nextShape(masShapes);
                 }
                 //TODO здесь будет обрабатываться событие проигрыша

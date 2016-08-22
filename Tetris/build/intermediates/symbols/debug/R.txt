@@ -455,8 +455,7 @@ int drawable button_big 0x7f02004c
 int drawable button_test 0x7f02004d
 int drawable gray_middle 0x7f02004e
 int drawable gray_small 0x7f02004f
-int drawable main_fon 0x7f020050
-int drawable notification_template_icon_bg 0x7f020051
+int drawable notification_template_icon_bg 0x7f020050
 int id TableLayout 0x7f0c0051
 int id action0 0x7f0c005f
 int id action_bar 0x7f0c0041
