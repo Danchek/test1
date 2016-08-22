@@ -32,7 +32,7 @@ public class Service {
     }
 
     //метод перерисовки поля для тетриса
-    public synchronized void backgr(int z,int[][] pole, ImageView[] imgNew) {
+    public synchronized void backgr(int[][] pole, ImageView[] imgNew) {
         for (int i = 0; i < con.ROW; i++)
             for (int j = 0; j < con.COLUMN; j++) {
                 switch (pole[i][j]) {

@@ -61,6 +61,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         imgNew = new ImageView[con.NUMER_OF_ELEMEMHT];
         buttonD = (ImageButton) findViewById(R.id.imageButtonDown);
         buttonD.setOnTouchListener(this);
+        buttonD.setOnClickListener(this);
         buttonR = (ImageButton) findViewById(R.id.imageButtonRight);
         buttonR.setOnClickListener(this);
         buttonU = (ImageButton) findViewById(R.id.imageButtonUp);
@@ -77,11 +78,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             @Override
             public void handleMessage(Message msg) {
                 if (msg.what==0) {
-                    service.backgr(msg.what, pole, imgNew);
+                    service.backgr(pole, imgNew);
                 } else if (msg.what==1){
-                    textViewLevel.setText(level);
-                    textViewRow.setText(rowNumber);
-                    textViewPoints.setText(points);
+                    textViewLevel.setText(""+level);
+                    textViewRow.setText(""+rowNumber);
+                    textViewPoints.setText(""+points);
                 }
 
             }
@@ -113,20 +114,23 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     @Override
     public void onClick(View v) {
         switch (v.getId()){
+            case R.id.imageButtonDown:
+                shape.down(pole,currentState); service.backgr(pole,imgNew);
+                break;
             case R.id.imageButtonLeft:
-                shape.left(pole, currentState); service.backgr(currentState,pole,imgNew);
+                shape.left(pole, currentState); service.backgr(pole,imgNew);
                 //Toast.makeText(this,"Left",Toast.LENGTH_SHORT).show();
                 break;
             case R.id.imageButtonRight:
-                shape.right(pole, currentState); service.backgr(currentState,pole,imgNew);
+                shape.right(pole, currentState); service.backgr(pole,imgNew);
                 //Toast.makeText(this,"Right",Toast.LENGTH_SHORT).show();
                 break;
             case R.id.imageButtonUp:
-                currentState=shape.turnLeft(pole,currentState); service.backgr(currentState,pole,imgNew);
+                currentState=shape.turnLeft(pole,currentState); service.backgr(pole,imgNew);
                 //Toast.makeText(this,"Up",Toast.LENGTH_SHORT).show();
                 break;
             case R.id.imageButtonBig:
-                currentState=shape.turnRight(pole,currentState); service.backgr(currentState,pole,imgNew);
+                currentState=shape.turnRight(pole,currentState); service.backgr(pole,imgNew);
         }
 
     }

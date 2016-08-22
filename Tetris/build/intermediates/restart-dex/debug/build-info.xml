@@ -4,30 +4,62 @@
     api-level="23"
     density="xxhdpi"
     format="7"
-    timestamp="847140508539408"
-    token="-2609976480978460198" >
+    timestamp="849393314711071"
+    token="-2609976480978460198"
+    verifier="COMPATIBLE" >
 
     <task
         name="javac"
-        duration="0" />
+        duration="237" />
     <task
         name="instant-run-dex"
-        duration="0" />
+        duration="813" />
     <task
         name="instant-run-transform"
-        duration="0" />
+        duration="25" />
     <task
         name="verifier"
-        duration="0" />
+        duration="6" />
 
     <artifact
-        location="C:\Users\User\AndroidStudioProjects\test1\Tetris\build\outputs\apk\Tetris-debug.apk"
-        type="MAIN" />
+        location="C:\Users\User\AndroidStudioProjects\test1\Tetris\build\intermediates\reload-dex\debug\classes.dex"
+        type="RELOAD_DEX" />
 
     <build timestamp="847140508539408" >
         <artifact
             location="C:\Users\User\AndroidStudioProjects\test1\Tetris\build\outputs\apk\Tetris-debug.apk"
             type="MAIN" />
+    </build>
+    <build timestamp="848044053522925" >
+        <artifact
+            location="C:\Users\User\AndroidStudioProjects\test1\Tetris\build\intermediates\res\resources-debug.ap_"
+            type="RESOURCES" />
+        <artifact
+            location="C:\Users\User\AndroidStudioProjects\test1\Tetris\build\intermediates\transforms\dex\debug\folders\1000\5\slice_2\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\Users\User\AndroidStudioProjects\test1\Tetris\build\intermediates\transforms\dex\debug\folders\1000\5\slice_6\classes.dex"
+            type="DEX" />
+    </build>
+    <build timestamp="848414350003312" >
+        <artifact
+            location="C:\Users\User\AndroidStudioProjects\test1\Tetris\build\intermediates\transforms\dex\debug\folders\1000\5\slice_5\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\Users\User\AndroidStudioProjects\test1\Tetris\build\intermediates\transforms\dex\debug\folders\1000\5\slice_9\classes.dex"
+            type="DEX" />
+    </build>
+    <build timestamp="848547921174691" >
+        <artifact
+            location="C:\Users\User\AndroidStudioProjects\test1\Tetris\build\intermediates\transforms\dex\debug\folders\1000\5\slice_1\classes.dex"
+            type="DEX" />
+    </build>
+    <build
+        timestamp="849393314711071"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="C:\Users\User\AndroidStudioProjects\test1\Tetris\build\intermediates\reload-dex\debug\classes.dex"
+            type="RELOAD_DEX" />
     </build>
 
 </instant-run>

@@ -33,7 +33,7 @@ public class Dva implements Shape {
         identFirstBlock(pole);
         switch (currentState){
             case 0:
-                if (fColumn==18) {return false;}
+                if (fRow==18) {return false;}
                 if(pole[fRow+1][fColumn]==0 && pole[fRow+2][fColumn+1]==0 && pole[fRow+2][fColumn+2]==0){
                     pole[fRow][fColumn]=0;
                     pole[fRow][fColumn+1]=0;
@@ -45,7 +45,7 @@ public class Dva implements Shape {
                 }
                 break;
             case 1:
-                if (fColumn==17) {return false;}
+                if (fRow==16) {return false;}
                 if(pole[fRow+3][fColumn-1]==0 && pole[fRow+2][fColumn]==0){
                     pole[fRow][fColumn]=0;
                     pole[fRow+1][fColumn-1]=0;
